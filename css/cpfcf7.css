@@ -1,0 +1,22 @@
+
+.custom-cpfcf7-confirm input:not(.wpcf7-submit),
+.custom-cpfcf7-confirm textarea {
+    border: 0 !important;
+    background-color: #ECEFF1 !important;
+    pointer-events : none !important;
+    outline: 0 !important;
+    border-width: 1px !important;
+    border-color: #ccc !important;
+    border-style: solid !important;
+}
+
+.custom-cpfcf7-confirm input:-webkit-autofill,
+.custom-cpfcf7-confirm input:-webkit-autofill:hover,
+.custom-cpfcf7-confirm input:-webkit-autofill:focus textarea:-webkit-autofill,
+.ccustom-cpfcf7-confirm textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
+.custom-cpfcf7-confirm select:-webkit-autofill,
+.custom-cpfcf7-confirm select:-webkit-autofill:hover,
+.custom-cpfcf7-confirm select:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px #ECEFF1 inset !important;
+}
+
